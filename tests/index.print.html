@@ -1,0 +1,2192 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.113.0">
+    <meta name="generator" content="Relearn 5.16.2+tip">
+    <meta name="robots" content="noindex, nofollow, noarchive, noimageindex">
+    <meta name="description" content="Documentation for Hugo Relearn Theme">
+    <meta name="author" content="Sören Weber">
+    <title>Tests :: Hugo Relearn Theme</title>
+    <link href="https://example.com/tests/index.html" rel="alternate" hreflang="x-default">
+    <link href="https://example.com/tests/index.html" rel="alternate" hreflang="en">
+    <link href="https://example.com/pir/tests/index.html" rel="alternate" hreflang="pir">
+    <link href="../images/logo.svg?1687098581" rel="icon" type="image/svg+xml">
+    <!-- https://github.com/filamentgroup/loadCSS/blob/master/README.md#how-to-use -->
+    <link href="../css/fontawesome-all.min.css?1687098581" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../css/fontawesome-all.min.css?1687098581" rel="stylesheet"></noscript>
+    <link href="../css/nucleus.css?1687098581" rel="stylesheet">
+    <link href="../css/auto-complete.css?1687098581" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../css/auto-complete.css?1687098581" rel="stylesheet"></noscript>
+    <link href="../css/perfect-scrollbar.min.css?1687098581" rel="stylesheet">
+    <link href="../css/fonts.css?1687098581" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="../css/fonts.css?1687098581" rel="stylesheet"></noscript>
+    <link href="../css/theme.css?1687098581" rel="stylesheet">
+    <link href="../css/theme-auto.css?1687098581" rel="stylesheet" id="variant-style">
+    <link href="../css/variant.css?1687098581" rel="stylesheet">
+    <link href="../css/print.css?1687098581" rel="stylesheet" media="print">
+    <link href="../css/format-print.css?1687098581" rel="stylesheet">
+    <link href="../css/ie.css?1687098581" rel="stylesheet">
+    <script src="../js/url.js?1687098581"></script>
+    <script src="../js/variant.js?1687098581"></script>
+    <script>
+      // hack to let hugo tell us how to get to the root when using relativeURLs, it needs to be called *url= for it to do its magic:
+      // https://github.com/gohugoio/hugo/blob/145b3fcce35fbac25c7033c91c1b7ae6d1179da8/transform/urlreplacers/absurlreplacer.go#L72
+      window.index_js_url="../index.search.js";
+      var root_url="../";
+      var baseUri=root_url.replace(/\/$/, '');
+      // translations
+      window.T_Copy_to_clipboard = 'Copy to clipboard';
+      window.T_Copied_to_clipboard = 'Copied to clipboard!';
+      window.T_Copy_link_to_clipboard = 'Copy link to clipboard';
+      window.T_Link_copied_to_clipboard = 'Copied link to clipboard!';
+      window.T_No_results_found = 'No results found for \u0022{0}\u0022';
+      window.T_N_results_found = '{1} results found for \u0022{0}\u0022';
+      // some further base stuff
+      var baseUriFull='https:\/\/example.com/';
+      window.variants && variants.init( [ 'auto', 'relearn-bright', 'relearn-light', 'relearn-dark', 'learn', 'neon', 'blue', 'green', 'red' ] );
+    </script>
+    <style>
+      #body img.bg-white {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body class="mobile-support print disableInlineCopyToClipboard" data-url="../tests/index.html">
+    <div id="body" class="default-animation">
+      <div id="sidebar-overlay"></div>
+      <div id="toc-overlay"></div>
+      <nav id="topbar" class="highlightable">
+        <div>
+          <div id="breadcrumbs">
+            <span id="sidebar-toggle-span">
+              <a href="#" id="sidebar-toggle" class="topbar-link" title='Menu (CTRL+ALT+n)'><i class="fas fa-bars fa-fw"></i></a>
+            </span>
+            <ol class="links" itemscope itemtype="http://schema.org/BreadcrumbList">
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><a itemprop="item" href="../index.html"><span itemprop="name">Hugo Relearn Theme</span></a><meta itemprop="position" content="1"> &gt; </li>
+              <li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement"><span itemprop="name">Tests</span><meta itemprop="position" content="2"></li>
+            </ol>
+          </div>
+        </div>
+      </nav>
+      <main id="body-inner" class="highlightable chapter narrow" tabindex="-1">
+        <div class="flex-block-wrapper">
+          <article class="chapter">
+            <header class="headline">
+            </header>
+<div class="article-subheading">Chapter 5</div>
+<h1 id="tests">Tests</h1>
+
+<p>Some pages for internal testing of different styles</p>
+
+<div class="children children-h2 children-sort-">
+	
+<h2><a href="../tests/attach/index.html">Attachments Shortcode Test</a></h2><p>Testing Attachments Shortcode</p>
+<h2><a href="../tests/chapters/index.html">Chapters</a></h2><p>Start your success story. Now!</p>
+<h2><a href="../tests/code/index.html">Code</a></h2><p>Some testing for different styles used in syntax highlighting and preformatted blocks</p>
+<h2><a href="../tests/images/index.html">Images</a></h2><p>Some testing for different styles of image links</p>
+<h2><a href="../tests/lists/index.html">Lists</a></h2><p>Test shortcodes inside of list items</p>
+<h2><a href="../tests/tables/index.html">Tables</a></h2><p>Testing different markdown constructs inside of tables</p>
+<h2><a href="../tests/frontmatter/index.html">VSCode Front Matter</a></h2><p>Test default settings for snippets of the VSCode Front Matter extension</p>
+<h2><a href="../tests/width/index.html">Width</a></h2><p>Test dynamic width resizing of content if scrollbar is present</p>
+</div>
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Tests</h1>
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="attachments-shortcode-test">Attachments Shortcode Test</h1>
+
+<p>Our attachment shortcode is a source of pleasure&hellip;</p>
+
+<div class="children children-h2 children-sort-">
+	
+<h2><a href="../tests/attach/attach1/index.html">Attachments Branch Test</a></h2><p>Attachmentshugo.txt (20 B)</p>
+<h2><a href="../tests/attach/attach2/index.html">Attachments Leaf Test</a></h2><p>Attachmentshugo.txt (20 B)</p>
+<h2><a href="../tests/attach/attach3/index.html">Attachments Page Test</a></h2><p>Attachmentshugo.txt (20 B)</p>
+</div>
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Attachments Shortcode Test</h1>
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="attachments-branch-test">Attachments Branch Test</h1>
+
+
+<div class="box attachments cstyle transparent">
+  <div class="box-label"><i class="fa-fw fas fa-paperclip"></i> Attachments</div>
+  <ul class="box-content attachments-files">
+      <li><a href="../tests/attach/attach1/_index.en.files/hugo.txt">hugo.txt</a> (20 B)</li>
+  </ul>
+</div>
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="attachments-leaf-test">Attachments Leaf Test</h1>
+
+
+<div class="box attachments cstyle transparent">
+  <div class="box-label"><i class="fa-fw fas fa-paperclip"></i> Attachments</div>
+  <ul class="box-content attachments-files">
+      <li><a href="../tests/attach/attach2/index.en.files/hugo.txt">hugo.txt</a> (20 B)</li>
+  </ul>
+</div>
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="attachments-page-test">Attachments Page Test</h1>
+
+
+<div class="box attachments cstyle transparent">
+  <div class="box-label"><i class="fa-fw fas fa-paperclip"></i> Attachments</div>
+  <ul class="box-content attachments-files">
+      <li><a href="../tests/attach/attach3.en.files/hugo.txt">hugo.txt</a> (20 B)</li>
+  </ul>
+</div>
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          </section>
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="chapters">Chapters</h1>
+
+<p>Start your success story. Now!</p>
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <section>
+            <h1 class="a11y-only">Subsections of Chapters</h1>
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="1">1</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="10">10</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="11">11</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="12">12</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="13">13</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="14">14</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="15">15</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="16">16</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="17">17</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="18">18</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="19">19</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="2">2</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="20">20</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="21">21</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="22">22</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="23">23</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="24">24</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="25">25</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="26">26</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="27">27</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="28">28</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="29">29</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="3">3</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="30">30</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="4">4</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="5">5</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="6">6</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="7">7</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="8">8</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="9">9</h1>
+
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          </section>
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="code">Code</h1>
+
+<p>Some testing for different styles used in syntax highlighting and preformatted blocks.</p>
+<h2 id="inline-code">Inline Code</h2>
+<p><code>This is some very long inline code. Where does it wrap?</code></p>
+<p>What about wrapping short inline code if multiple sections are written <code>side</code> <code>by</code> <code>side</code>?</p>
+<p>What about wrapping short inline code if multiple sections are written <code>side</code>/<code>by</code>/<code>side</code>?</p>
+<p>What about wrapping long inline code if multiple sections are written <code>side567</code> <code>by34567</code> <code>side567</code>?</p>
+<p>What about wrapping long inline code if multiple sections are written <code>side567</code>/<code>by34567</code>/<code>side567</code>?</p>
+<p>Can we just use a <code>simple HTML element </code>?</p>
+<h2 id="block-code">Block Code</h2>
+<pre tabindex="0"><code>Code fences without any selected language
+</code></pre><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;well&#34;</span><span class="p">:</span> <span class="s2">&#34;some JSON in codefences in here&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><pre><code>{
+  "well": "some JSON in HTML elements here"
+}
+</code></pre>
+<pre tabindex="0"><code class="language-jsonxmylmsl" data-lang="jsonxmylmsl">{
+  &#34;well&#34;: &#34;Code fences with non existing language&#34;
+}
+</code></pre><h2 id="block-preformatted">Block Preformatted</h2>
+<pre><code>Some preformatted stuff with markdown indentation
+</code></pre>
+<pre>
+Some preformatted stuff in HTML elements
+</pre>
+<h2 id="nested-shortcode">Nested Shortcode</h2>
+<h3 id="1-shortcode">1 Shortcode</h3>
+<h4 id="heading">%%</h4>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line hl"><span class="ln" id="1"><a class="lnlinks" href="#1">1</a></span><span class="cl"><span class="p">{</span>
+</span></span><span class="line hl"><span class="ln" id="2"><a class="lnlinks" href="#2">2</a></span><span class="cl">  <span class="nt">&#34;Hello&#34;</span><span class="p">:</span> <span class="s2">&#34;World&#34;</span> <span class="s2">&#34;Hello&#34;</span><span class="p">:</span> <span class="s2">&#34;World&#34;</span> <span class="s2">&#34;Hello&#34;</span><span class="p">:</span> <span class="s2">&#34;World&#34;</span>
+</span></span><span class="line"><span class="ln" id="3"><a class="lnlinks" href="#3">3</a></span><span class="cl"><span class="p">}</span></span></span></code></pre></div>
+<h4 id="heading-1">&lt;&gt;</h4>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="hl"><span class="lnt" id="1"><a class="lnlinks" href="#1">1</a>
+</span></span><span class="hl"><span class="lnt" id="2"><a class="lnlinks" href="#2">2</a>
+</span></span><span class="lnt" id="3"><a class="lnlinks" href="#3">3</a>
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line hl"><span class="cl"><span class="p">{</span>
+</span></span><span class="line hl"><span class="cl">  <span class="nt">&#34;Hello&#34;</span><span class="p">:</span> <span class="s2">&#34;World&#34;</span> <span class="s2">&#34;Hello&#34;</span><span class="p">:</span> <span class="s2">&#34;World&#34;</span> <span class="s2">&#34;Hello&#34;</span><span class="p">:</span> <span class="s2">&#34;World&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span></span></span></code></pre></td></tr></table>
+</div>
+</div>
+<h3 id="2-shortcodes">2 Shortcodes</h3>
+<h4 id="-">%% %%</h4>
+
+<div class="tab-panel" data-tab-group="b2eb3ce78c32a51e8221008475da93b5">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      data-tab-item="json"
+      class="tab-nav-button tab-panel-style cstyle initial active"
+      onclick="switchTab('b2eb3ce78c32a51e8221008475da93b5','json')"
+    >
+      <div>
+        <div class="tab-nav-hidden">json</div>
+        <div class="tab-nav-text">json</div>
+      </div>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      data-tab-item="json"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="hl"><span class="lnt" id="1"><a class="lnlinks" href="#1">1</a>
+</span></span><span class="hl"><span class="lnt" id="2"><a class="lnlinks" href="#2">2</a>
+</span></span><span class="lnt" id="3"><a class="lnlinks" href="#3">3</a>
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line hl"><span class="cl"><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>{
+</span></span><span class="line hl"><span class="cl"><span class="ni">&amp;ldquo;</span>Hello<span class="ni">&amp;rdquo;</span>: <span class="ni">&amp;ldquo;</span>World<span class="ni">&amp;rdquo;</span> <span class="ni">&amp;ldquo;</span>Hello<span class="ni">&amp;rdquo;</span>: <span class="ni">&amp;ldquo;</span>World<span class="ni">&amp;rdquo;</span> <span class="ni">&amp;ldquo;</span>Hello<span class="ni">&amp;rdquo;</span>: <span class="ni">&amp;ldquo;</span>World<span class="ni">&amp;rdquo;</span>
+</span></span><span class="line"><span class="cl">}<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span></span></span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+<h4 id="--1">%% &lt;&gt;</h4>
+
+<div class="tab-panel" data-tab-group="2a00c97694917e5d2c6256e8f64265e8">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      data-tab-item="json"
+      class="tab-nav-button tab-panel-style cstyle initial active"
+      onclick="switchTab('2a00c97694917e5d2c6256e8f64265e8','json')"
+    >
+      <div>
+        <div class="tab-nav-hidden">json</div>
+        <div class="tab-nav-text">json</div>
+      </div>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      data-tab-item="json"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="hl"><span class="lnt" id="1"><a class="lnlinks" href="#1">1</a>
+</span></span><span class="hl"><span class="lnt" id="2"><a class="lnlinks" href="#2">2</a>
+</span></span><span class="lnt" id="3"><a class="lnlinks" href="#3">3</a>
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line hl"><span class="cl">{
+</span></span><span class="line hl"><span class="cl">  &#34;Hello&#34;: &#34;World&#34; &#34;Hello&#34;: &#34;World&#34; &#34;Hello&#34;: &#34;World&#34;
+</span></span><span class="line"><span class="cl">}</span></span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+<h4 id="--2">&lt;&gt; %%</h4>
+
+<div class="tab-panel" data-tab-group="31fe7907cb1d3cbdc400946ca50d602a">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      data-tab-item="json"
+      class="tab-nav-button tab-panel-style cstyle initial active"
+      onclick="switchTab('31fe7907cb1d3cbdc400946ca50d602a','json')"
+    >
+      <div>
+        <div class="tab-nav-hidden">json</div>
+        <div class="tab-nav-text">json</div>
+      </div>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      data-tab-item="json"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+
+
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="hl"><span class="lnt" id="1"><a class="lnlinks" href="#1">1</a>
+</span></span><span class="hl"><span class="lnt" id="2"><a class="lnlinks" href="#2">2</a>
+</span></span><span class="lnt" id="3"><a class="lnlinks" href="#3">3</a>
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line hl"><span class="cl"><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>{
+</span></span><span class="line hl"><span class="cl"><span class="ni">&amp;ldquo;</span>Hello<span class="ni">&amp;rdquo;</span>: <span class="ni">&amp;ldquo;</span>World<span class="ni">&amp;rdquo;</span> <span class="ni">&amp;ldquo;</span>Hello<span class="ni">&amp;rdquo;</span>: <span class="ni">&amp;ldquo;</span>World<span class="ni">&amp;rdquo;</span> <span class="ni">&amp;ldquo;</span>Hello<span class="ni">&amp;rdquo;</span>: <span class="ni">&amp;ldquo;</span>World<span class="ni">&amp;rdquo;</span>
+</span></span><span class="line"><span class="cl">}<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span></span></span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+<h4 id="--3">&lt;&gt; &lt;&gt;</h4>
+
+<div class="tab-panel" data-tab-group="1fce446d1b4453ac9ade11b723deffb7">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      data-tab-item="json"
+      class="tab-nav-button tab-panel-style cstyle initial active"
+      onclick="switchTab('1fce446d1b4453ac9ade11b723deffb7','json')"
+    >
+      <div>
+        <div class="tab-nav-hidden">json</div>
+        <div class="tab-nav-text">json</div>
+      </div>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      data-tab-item="json"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+
+
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="hl"><span class="lnt" id="1"><a class="lnlinks" href="#1">1</a>
+</span></span><span class="hl"><span class="lnt" id="2"><a class="lnlinks" href="#2">2</a>
+</span></span><span class="lnt" id="3"><a class="lnlinks" href="#3">3</a>
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line hl"><span class="cl">{
+</span></span><span class="line hl"><span class="cl">  &#34;Hello&#34;: &#34;World&#34; &#34;Hello&#34;: &#34;World&#34; &#34;Hello&#34;: &#34;World&#34;
+</span></span><span class="line"><span class="cl">}</span></span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+<h3 id="3-shortcodes">3 Shortcodes</h3>
+<h4 id="--">%% %% %%</h4>
+<div class="tab-panel" data-tab-group="08bb0e38e93d09c6ce470ea7499842bc">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      data-tab-item="json"
+      class="tab-nav-button tab-panel-style cstyle initial active"
+      onclick="switchTab('08bb0e38e93d09c6ce470ea7499842bc','json')"
+    >
+      <div>
+        <div class="tab-nav-hidden">json</div>
+        <div class="tab-nav-text">json</div>
+      </div>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      data-tab-item="json"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="hl"><span class="lnt" id="1"><a class="lnlinks" href="#1">1</a>
+</span></span><span class="hl"><span class="lnt" id="2"><a class="lnlinks" href="#2">2</a>
+</span></span><span class="lnt" id="3"><a class="lnlinks" href="#3">3</a>
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line hl"><span class="cl"><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>{
+</span></span><span class="line hl"><span class="cl"><span class="ni">&amp;ldquo;</span>Hello<span class="ni">&amp;rdquo;</span>: <span class="ni">&amp;ldquo;</span>World<span class="ni">&amp;rdquo;</span> <span class="ni">&amp;ldquo;</span>Hello<span class="ni">&amp;rdquo;</span>: <span class="ni">&amp;ldquo;</span>World<span class="ni">&amp;rdquo;</span> <span class="ni">&amp;ldquo;</span>Hello<span class="ni">&amp;rdquo;</span>: <span class="ni">&amp;ldquo;</span>World<span class="ni">&amp;rdquo;</span>
+</span></span><span class="line"><span class="cl">}<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span></span></span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+<h4 id="---1">%% %% &lt;&gt;</h4>
+<div class="tab-panel" data-tab-group="7307d45324983e2cf8bd72ff16cf9e0f">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      data-tab-item="json"
+      class="tab-nav-button tab-panel-style cstyle initial active"
+      onclick="switchTab('7307d45324983e2cf8bd72ff16cf9e0f','json')"
+    >
+      <div>
+        <div class="tab-nav-hidden">json</div>
+        <div class="tab-nav-text">json</div>
+      </div>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      data-tab-item="json"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="hl"><span class="lnt" id="1"><a class="lnlinks" href="#1">1</a>
+</span></span><span class="hl"><span class="lnt" id="2"><a class="lnlinks" href="#2">2</a>
+</span></span><span class="lnt" id="3"><a class="lnlinks" href="#3">3</a>
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line hl"><span class="cl">{
+</span></span><span class="line hl"><span class="cl">  &#34;Hello&#34;: &#34;World&#34; &#34;Hello&#34;: &#34;World&#34; &#34;Hello&#34;: &#34;World&#34;
+</span></span><span class="line"><span class="cl">}</span></span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+<h4 id="---2">%% &lt;&gt; %%</h4>
+<div class="tab-panel" data-tab-group="329e1a4ce27d0d0b887ff690b7ea6ec9">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      data-tab-item="json"
+      class="tab-nav-button tab-panel-style cstyle initial active"
+      onclick="switchTab('329e1a4ce27d0d0b887ff690b7ea6ec9','json')"
+    >
+      <div>
+        <div class="tab-nav-hidden">json</div>
+        <div class="tab-nav-text">json</div>
+      </div>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      data-tab-item="json"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="hl"><span class="lnt" id="1"><a class="lnlinks" href="#1">1</a>
+</span></span><span class="hl"><span class="lnt" id="2"><a class="lnlinks" href="#2">2</a>
+</span></span><span class="lnt" id="3"><a class="lnlinks" href="#3">3</a>
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line hl"><span class="cl"><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>{
+</span></span><span class="line hl"><span class="cl"><span class="ni">&amp;ldquo;</span>Hello<span class="ni">&amp;rdquo;</span>: <span class="ni">&amp;ldquo;</span>World<span class="ni">&amp;rdquo;</span> <span class="ni">&amp;ldquo;</span>Hello<span class="ni">&amp;rdquo;</span>: <span class="ni">&amp;ldquo;</span>World<span class="ni">&amp;rdquo;</span> <span class="ni">&amp;ldquo;</span>Hello<span class="ni">&amp;rdquo;</span>: <span class="ni">&amp;ldquo;</span>World<span class="ni">&amp;rdquo;</span>
+</span></span><span class="line"><span class="cl">}<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span></span></span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+<h4 id="---3">%% &lt;&gt; &lt;&gt;</h4>
+<div class="tab-panel" data-tab-group="6cc63d22395fe1574d3b8209db2d140a">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      data-tab-item="json"
+      class="tab-nav-button tab-panel-style cstyle initial active"
+      onclick="switchTab('6cc63d22395fe1574d3b8209db2d140a','json')"
+    >
+      <div>
+        <div class="tab-nav-hidden">json</div>
+        <div class="tab-nav-text">json</div>
+      </div>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      data-tab-item="json"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="hl"><span class="lnt" id="1"><a class="lnlinks" href="#1">1</a>
+</span></span><span class="hl"><span class="lnt" id="2"><a class="lnlinks" href="#2">2</a>
+</span></span><span class="lnt" id="3"><a class="lnlinks" href="#3">3</a>
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line hl"><span class="cl">{
+</span></span><span class="line hl"><span class="cl">  &#34;Hello&#34;: &#34;World&#34; &#34;Hello&#34;: &#34;World&#34; &#34;Hello&#34;: &#34;World&#34;
+</span></span><span class="line"><span class="cl">}</span></span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+<h4 id="---4">&lt;&gt; %% %%</h4>
+
+<div class="tab-panel" data-tab-group="13b3ba9e70e3c57d4ef9a9fbbbf8cb51">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      data-tab-item="json"
+      class="tab-nav-button tab-panel-style cstyle initial active"
+      onclick="switchTab('13b3ba9e70e3c57d4ef9a9fbbbf8cb51','json')"
+    >
+      <div>
+        <div class="tab-nav-hidden">json</div>
+        <div class="tab-nav-text">json</div>
+      </div>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      data-tab-item="json"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="hl"><span class="lnt" id="1"><a class="lnlinks" href="#1">1</a>
+</span></span><span class="hl"><span class="lnt" id="2"><a class="lnlinks" href="#2">2</a>
+</span></span><span class="lnt" id="3"><a class="lnlinks" href="#3">3</a>
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line hl"><span class="cl"><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>{
+</span></span><span class="line hl"><span class="cl"><span class="ni">&amp;ldquo;</span>Hello<span class="ni">&amp;rdquo;</span>: <span class="ni">&amp;ldquo;</span>World<span class="ni">&amp;rdquo;</span> <span class="ni">&amp;ldquo;</span>Hello<span class="ni">&amp;rdquo;</span>: <span class="ni">&amp;ldquo;</span>World<span class="ni">&amp;rdquo;</span> <span class="ni">&amp;ldquo;</span>Hello<span class="ni">&amp;rdquo;</span>: <span class="ni">&amp;ldquo;</span>World<span class="ni">&amp;rdquo;</span>
+</span></span><span class="line"><span class="cl">}<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span></span></span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+<h4 id="---5">&lt;&gt; %% &lt;&gt;</h4>
+
+<div class="tab-panel" data-tab-group="8e52580b98d7ee2d45a24b21b4447e38">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      data-tab-item="json"
+      class="tab-nav-button tab-panel-style cstyle initial active"
+      onclick="switchTab('8e52580b98d7ee2d45a24b21b4447e38','json')"
+    >
+      <div>
+        <div class="tab-nav-hidden">json</div>
+        <div class="tab-nav-text">json</div>
+      </div>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      data-tab-item="json"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="hl"><span class="lnt" id="1"><a class="lnlinks" href="#1">1</a>
+</span></span><span class="hl"><span class="lnt" id="2"><a class="lnlinks" href="#2">2</a>
+</span></span><span class="lnt" id="3"><a class="lnlinks" href="#3">3</a>
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line hl"><span class="cl">{
+</span></span><span class="line hl"><span class="cl">  &#34;Hello&#34;: &#34;World&#34; &#34;Hello&#34;: &#34;World&#34; &#34;Hello&#34;: &#34;World&#34;
+</span></span><span class="line"><span class="cl">}</span></span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+<h4 id="---6">&lt;&gt; &lt;&gt; %%</h4>
+
+<div class="tab-panel" data-tab-group="0be4d73e236010863cc435528c56334f">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      data-tab-item="json"
+      class="tab-nav-button tab-panel-style cstyle initial active"
+      onclick="switchTab('0be4d73e236010863cc435528c56334f','json')"
+    >
+      <div>
+        <div class="tab-nav-hidden">json</div>
+        <div class="tab-nav-text">json</div>
+      </div>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      data-tab-item="json"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+
+
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="hl"><span class="lnt" id="1"><a class="lnlinks" href="#1">1</a>
+</span></span><span class="hl"><span class="lnt" id="2"><a class="lnlinks" href="#2">2</a>
+</span></span><span class="lnt" id="3"><a class="lnlinks" href="#3">3</a>
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line hl"><span class="cl"><span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>{
+</span></span><span class="line hl"><span class="cl"><span class="ni">&amp;ldquo;</span>Hello<span class="ni">&amp;rdquo;</span>: <span class="ni">&amp;ldquo;</span>World<span class="ni">&amp;rdquo;</span> <span class="ni">&amp;ldquo;</span>Hello<span class="ni">&amp;rdquo;</span>: <span class="ni">&amp;ldquo;</span>World<span class="ni">&amp;rdquo;</span> <span class="ni">&amp;ldquo;</span>Hello<span class="ni">&amp;rdquo;</span>: <span class="ni">&amp;ldquo;</span>World<span class="ni">&amp;rdquo;</span>
+</span></span><span class="line"><span class="cl">}<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span></span></span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+<h4 id="---7">&lt;&gt; &lt;&gt; &lt;&gt;</h4>
+
+<div class="tab-panel" data-tab-group="77806f7e39171c4b5b37664fe4390d9f">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      data-tab-item="json"
+      class="tab-nav-button tab-panel-style cstyle initial active"
+      onclick="switchTab('77806f7e39171c4b5b37664fe4390d9f','json')"
+    >
+      <div>
+        <div class="tab-nav-hidden">json</div>
+        <div class="tab-nav-text">json</div>
+      </div>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      data-tab-item="json"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+
+
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="hl"><span class="lnt" id="1"><a class="lnlinks" href="#1">1</a>
+</span></span><span class="hl"><span class="lnt" id="2"><a class="lnlinks" href="#2">2</a>
+</span></span><span class="lnt" id="3"><a class="lnlinks" href="#3">3</a>
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-html" data-lang="html"><span class="line hl"><span class="cl">{
+</span></span><span class="line hl"><span class="cl">  &#34;Hello&#34;: &#34;World&#34; &#34;Hello&#34;: &#34;World&#34; &#34;Hello&#34;: &#34;World&#34;
+</span></span><span class="line"><span class="cl">}</span></span></code></pre></td></tr></table>
+</div>
+</div>
+</div>
+    </div>
+  </div>
+</div>
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="images">Images</h1>
+
+<p>Some testing for different styles of image links.</p>
+<h2 id="markdown">Markdown</h2>
+<h3 id="resource-svg">Resource SVG</h3>
+<p>
+<a href="#image-031855dbaa6d10fe771ed173277a2fdf" class="lightbox-link">
+<img src="../tests/images/test.svg?classes=shadow" alt="Magic" class="shadow" style="height: auto; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-031855dbaa6d10fe771ed173277a2fdf">
+<img src="../tests/images/test.svg?classes=shadow" alt="Magic" class="lightbox-image" loading="lazy">
+</a></p>
+<h3 id="relative-to-page">Relative to page</h3>
+<p>
+<a href="#image-9ffd4cd5b2df47ff9cabf25e4d91cfa8" class="lightbox-link">
+<img src="../tests/images/magic.gif?classes=shadow" alt="Magic" class="shadow" style="height: auto; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-9ffd4cd5b2df47ff9cabf25e4d91cfa8">
+<img src="../tests/images/magic.gif?classes=shadow" alt="Magic" class="lightbox-image" loading="lazy">
+</a></p>
+<h3 id="relative-to-page-up-level">Relative to page up level</h3>
+<p>
+		
+<a href="#image-c94315b86dbf6a8d555af86a7380be02" class="lightbox-link">
+<img src="../tests/images/../images/magic.gif?classes=shadow&amp;height=50px" alt="Magic" class="shadow" style="height: 50px; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-c94315b86dbf6a8d555af86a7380be02">
+<img src="../tests/images/../images/magic.gif?classes=shadow&amp;height=50px" alt="Magic" class="lightbox-image" loading="lazy">
+</a></p>
+<h3 id="static-svg">Static SVG</h3>
+<p>
+		
+<a href="#image-f16dd951bc4eb08786a02ec3def2ff14" class="lightbox-link">
+<img src="../images/logo.svg?classes=shadow&amp;height=50px" alt="Logo" class="shadow" style="height: 50px; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-f16dd951bc4eb08786a02ec3def2ff14">
+<img src="../images/logo.svg?classes=shadow&amp;height=50px" alt="Logo" class="lightbox-image" loading="lazy">
+</a></p>
+<h3 id="external-fully-qualified">External fully qualified</h3>
+<p>
+		
+<a href="#image-bb44d9ee74437ab061670546c454fe9e" class="lightbox-link">
+<img src="https://octodex.github.com/images/minion.png?classes=shadow&amp;height=50px" alt="Minion" class="shadow" style="height: 50px; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-bb44d9ee74437ab061670546c454fe9e">
+<img src="https://octodex.github.com/images/minion.png?classes=shadow&amp;height=50px" alt="Minion" class="lightbox-image" loading="lazy">
+</a></p>
+<h3 id="external-without-scheme">External without scheme</h3>
+<p>
+		
+<a href="#image-74b4aad6b5ada1ccb30c4de5bc54d836" class="lightbox-link">
+<img src="//octodex.github.com/images/minion.png?classes=shadow&amp;height=50px" alt="Minion" class="shadow" style="height: 50px; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-74b4aad6b5ada1ccb30c4de5bc54d836">
+<img src="//octodex.github.com/images/minion.png?classes=shadow&amp;height=50px" alt="Minion" class="lightbox-image" loading="lazy">
+</a></p>
+<h3 id="external-without-scheme-and-scheme-separator">External without scheme and scheme separator</h3>
+<p>
+		
+<a href="#image-e87dba1c379043d9d117e2b011c272d8" class="lightbox-link">
+<img src="../tests/images/octodex.github.com/images/minion.png?classes=shadow&amp;height=50px" alt="Minion" class="shadow" style="height: 50px; width: auto;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-e87dba1c379043d9d117e2b011c272d8">
+<img src="../tests/images/octodex.github.com/images/minion.png?classes=shadow&amp;height=50px" alt="Minion" class="lightbox-image" loading="lazy">
+</a></p>
+<h2 id="html">HTML</h2>
+<h3 id="resource-svg-1">Resource SVG</h3>
+<p><img src="../tests/images/test.svg?classes=shadow"></p>
+<h3 id="relative-to-page-1">Relative to page</h3>
+<p><img src="../tests/images/magic.gif?classes=shadow"></p>
+<h3 id="relative-to-page-up-level-1">Relative to page up level</h3>
+<p><img src="../tests/images/../images/magic.gif?classes=shadow&height=50px"></p>
+<h3 id="static-svg-1">Static SVG</h3>
+<p><img src="../images/logo.svg?classes=shadow&height=50px"></p>
+<h3 id="external-fully-qualified-1">External fully qualified</h3>
+<p><img src="https://octodex.github.com/images/minion.png?classes=shadow&height=50px"></p>
+<h3 id="external-without-scheme-1">External without scheme</h3>
+<p><img src="//octodex.github.com/images/minion.png?classes=shadow&height=50px"></p>
+<h3 id="external-without-scheme-and-scheme-separator-1">External without scheme and scheme separator</h3>
+<p><img src="../tests/images/octodex.github.com/images/minion.png?classes=shadow&height=50px"></p>
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="lists">Lists</h1>
+
+<h2 id="plain">Plain</h2>
+<ul>
+<li>
+<p>one</p>
+</li>
+<li>
+<p>two</p>
+</li>
+<li>
+<p>two</p>
+<p>and a half</p>
+</li>
+<li>
+<p>three</p>
+</li>
+</ul>
+<h2 id="attachments">Attachments</h2>
+<ul>
+<li>
+<p>one</p>
+</li>
+<li>
+<p>two</p>
+</li>
+<li>
+
+<div class="box attachments cstyle blue">
+  <div class="box-label"><i class="fa-fw fas fa-paperclip"></i> Attachments</div>
+  <ul class="box-content attachments-files">
+  </ul>
+</div>
+
+  <div class="box attachments cstyle blue">
+    <div class="box-label"><i class="fa-fw fas fa-paperclip"></i> Attachments</div>
+    <ul class="box-content attachments-files">
+    </ul>
+  </div>
+</li>
+<li>
+<p>three</p>
+</li>
+</ul>
+<h2 id="badge">Badge</h2>
+<ul>
+<li>
+<p>one</p>
+</li>
+<li>
+<p>two</p>
+</li>
+<li>
+<p><span class="badge cstyle default badge-with-title"><span class="badge-title"><i class="fab fa-hackerrank"></i></span><span class="badge-content" style="background-color: fuchsia;">Awesome</span></span> </p>
+<span class="badge cstyle default badge-with-title"><span class="badge-title"><i class="fab fa-hackerrank"></i></span><span class="badge-content" style="background-color: fuchsia;">Awesome</span></span>
+</li>
+<li>
+<p>three</p>
+</li>
+</ul>
+<h2 id="button">Button</h2>
+<ul>
+<li>
+<p>one</p>
+</li>
+<li>
+<p>two</p>
+</li>
+<li>
+<p>
+<span class="btn cstyle warning">
+  <a href="https://gohugo.io/" target="_blank">
+    <i class="fa-fw fas fa-dragon"></i>
+    Get Hugo
+  </a>
+</span> </p>
+
+<span class="btn cstyle warning">
+  <a href="https://gohugo.io/" target="_blank">
+    <i class="fa-fw fas fa-dragon"></i>
+    Get Hugo
+  </a>
+</span>
+</li>
+<li>
+<p>three</p>
+</li>
+</ul>
+<h2 id="children">Children</h2>
+<ul>
+<li>
+<p>one</p>
+</li>
+<li>
+<p>two</p>
+</li>
+<li>
+
+<ul class="children children-li children-sort-weight">
+	
+</ul>
+
+  <ul class="children children-li children-sort-weight">
+  	
+  </ul>
+</li>
+<li>
+<p>three</p>
+</li>
+</ul>
+<h2 id="expand">Expand</h2>
+<ul>
+<li>
+<p>one</p>
+</li>
+<li>
+<p>two</p>
+</li>
+<li>
+
+<div class="expand">
+    <input type="checkbox" id="expand-d5a5818ca256681e8d92f2549402ab7f" aria-controls="expandcontent-d5a5818ca256681e8d92f2549402ab7f" >
+    <label class="expand-label" for="expand-d5a5818ca256681e8d92f2549402ab7f" >
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-chevron-right"></i>
+        Expand me&hellip;
+    </label>
+    <div id="expandcontent-d5a5818ca256681e8d92f2549402ab7f" class="expand-content">
+<p>
+Thank you!</div>
+</div>
+
+<div class="expand">
+    <input type="checkbox" id="expand-da2694d488a7a401386aab41968e1798" aria-controls="expandcontent-da2694d488a7a401386aab41968e1798" >
+    <label class="expand-label" for="expand-da2694d488a7a401386aab41968e1798" >
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-chevron-right"></i>
+        Expand me&hellip;
+    </label>
+    <div id="expandcontent-da2694d488a7a401386aab41968e1798" class="expand-content">
+<p>
+Thank you!</div>
+</div>
+</li>
+<li>
+<p>three</p>
+</li>
+</ul>
+<h2 id="icon">Icon</h2>
+<ul>
+<li>
+<p>one</p>
+</li>
+<li>
+<p>two</p>
+</li>
+<li>
+<p><i class="fa-fw fas fa-exclamation-triangle"></i> </p>
+<i class="fa-fw fas fa-exclamation-triangle"></i>
+</li>
+<li>
+<p>three</p>
+</li>
+</ul>
+<h2 id="include">Include</h2>
+<ul>
+<li>one</li>
+<li>two</li>
+<li></li>
+</ul>
+<p>You can add standard markdown syntax:</p>
+<ul>
+<li>multiple paragraphs</li>
+<li>bullet point lists</li>
+<li><em>emphasized</em>, <strong>bold</strong> and even <strong><em>bold emphasized</em></strong> text</li>
+<li><a href="https://example.com" target="_blank">links</a></li>
+<li>etc.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">...and even source code
+</span></span></code></pre></div><blockquote>
+<p>the possibilities are endless (almost - including other shortcodes may or may not work) (almost - including other shortcodes may or may not work)</p>
+</blockquote>
+<p>You can add standard markdown syntax:</p>
+<ul>
+<li>multiple paragraphs</li>
+<li>bullet point lists</li>
+<li><em>emphasized</em>, <strong>bold</strong> and even <strong><em>bold emphasized</em></strong> text</li>
+<li><a href="https://example.com" target="_blank">links</a></li>
+<li>etc.<sup id="fnref1:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">...and even source code
+</span></span></code></pre></div><blockquote>
+<p>the possibilities are endless (almost - including other shortcodes may or may not work) (almost - including other shortcodes may or may not work)</p>
+</blockquote>
+<ul>
+<li>three</li>
+</ul>
+<h2 id="math">Math</h2>
+<ul>
+<li>
+<p>one</p>
+</li>
+<li>
+<p>two</p>
+</li>
+<li>
+
+<span class="math align-center">
+  $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+  </span>
+
+<span class="math align-center">
+  $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+  </span>
+</li>
+<li>
+<p>three</p>
+</li>
+</ul>
+<h2 id="mermaid">Mermaid</h2>
+<ul>
+<li>
+<p>one</p>
+</li>
+<li>
+<p>two</p>
+</li>
+<li>
+
+<div class="mermaid align-center zoom">
+  graph LR;
+  If --&gt; Then
+  Then --&gt; Else
+  </div>
+
+<div class="mermaid align-center zoom">
+  graph LR;
+  If --&gt; Then
+  Then --&gt; Else
+  </div>
+</li>
+<li>
+<p>three</p>
+</li>
+</ul>
+<h2 id="notice">Notice</h2>
+<ul>
+<li>
+<p>one</p>
+</li>
+<li>
+<p>two</p>
+</li>
+<li>
+
+<div class="box notices cstyle primary">
+  <div class="box-label"><i class="fa-fw fas fa-skull-crossbones"></i> There may be pirates</div>
+  <div class="box-content">
+
+<p>It is all about the boxes.</p>
+</div>
+</div>
+
+<div class="box notices cstyle primary">
+  <div class="box-label"><i class="fa-fw fas fa-skull-crossbones"></i> There may be pirates</div>
+  <div class="box-content">
+
+<p>It is all about the boxes.</p>
+</div>
+</div>
+</li>
+<li>
+<p>three</p>
+</li>
+</ul>
+<h2 id="siteparam">Siteparam</h2>
+<ul>
+<li>
+<p>one</p>
+</li>
+<li>
+<p>two</p>
+</li>
+<li>
+<p><a href="https://github.com/McShelby/hugo-theme-relearn/edit/main/exampleSite/content/" target="_blank">https://github.com/McShelby/hugo-theme-relearn/edit/main/exampleSite/content/</a></p>
+<p><a href="https://github.com/McShelby/hugo-theme-relearn/edit/main/exampleSite/content/" target="_blank">https://github.com/McShelby/hugo-theme-relearn/edit/main/exampleSite/content/</a></p>
+</li>
+<li>
+<p>three</p>
+</li>
+</ul>
+<h2 id="tabs">Tabs</h2>
+<ul>
+<li>
+<p>one</p>
+</li>
+<li>
+<p>two</p>
+</li>
+<li>
+
+<div class="tab-panel" data-tab-group="e9aeef6b7bd21535aa1d80d1a7924d54">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      data-tab-item="python"
+      class="tab-nav-button tab-panel-style cstyle initial active"
+      onclick="switchTab('e9aeef6b7bd21535aa1d80d1a7924d54','python')"
+    >
+      <div>
+        <div class="tab-nav-hidden">python</div>
+        <div class="tab-nav-text">python</div>
+      </div>
+    </button>
+    <button
+      data-tab-item="bash"
+      class="tab-nav-button tab-panel-style cstyle initial"
+      onclick="switchTab('e9aeef6b7bd21535aa1d80d1a7924d54','bash')"
+    >
+      <div>
+        <div class="tab-nav-hidden">bash</div>
+        <div class="tab-nav-text">bash</div>
+      </div>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      data-tab-item="python"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Hello World!&#34;</span><span class="p">)</span>
+</span></span></code></pre></div></div>
+    </div>
+    <div
+      data-tab-item="bash"
+      class="tab-content tab-panel-style cstyle initial">
+      <div class="tab-content-text">
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Hello World!&#34;</span>
+</span></span></code></pre></div></div>
+    </div>
+  </div>
+</div>
+
+<div class="tab-panel" data-tab-group="37ff025b1f5487fbcf0bcaba63c293f4">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      data-tab-item="python"
+      class="tab-nav-button tab-panel-style cstyle initial active"
+      onclick="switchTab('37ff025b1f5487fbcf0bcaba63c293f4','python')"
+    >
+      <div>
+        <div class="tab-nav-hidden">python</div>
+        <div class="tab-nav-text">python</div>
+      </div>
+    </button>
+    <button
+      data-tab-item="bash"
+      class="tab-nav-button tab-panel-style cstyle initial"
+      onclick="switchTab('37ff025b1f5487fbcf0bcaba63c293f4','bash')"
+    >
+      <div>
+        <div class="tab-nav-hidden">bash</div>
+        <div class="tab-nav-text">bash</div>
+      </div>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      data-tab-item="python"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Hello World!&#34;</span><span class="p">)</span>
+</span></span></code></pre></div></div>
+    </div>
+    <div
+      data-tab-item="bash"
+      class="tab-content tab-panel-style cstyle initial">
+      <div class="tab-content-text">
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Hello World!&#34;</span>
+</span></span></code></pre></div></div>
+    </div>
+  </div>
+</div>
+</li>
+<li>
+<p>three</p>
+</li>
+</ul>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Et Cetera (English: /ɛtˈsɛtərə/), abbreviated to etc., etc, et cet., is a Latin expression that is used in English to mean &ldquo;and other similar things&rdquo;, or &ldquo;and so forth&rdquo;&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a>&#160;<a href="#fnref1:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="tables">Tables</h1>
+
+<h2 id="lines-and-paragraphs">Lines and Paragraphs</h2>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><p>HTML Paragraph I</p><p>HTML Paragraph II</p></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HTML Line I<br>HTML Line II</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HTML Line I<br><br>HTML Line II</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Markdown Multicell I</td>
+</tr>
+<tr>
+<td>Markdown Multicell II</td>
+</tr>
+</tbody>
+</table>
+<h2 id="headings">Headings</h2>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><h1>HTML h1</h1></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><h2>HTML h2</h2></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><h3>HTML h3</h3></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><h4>HTML h4</h4></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><h5>HTML h5</h5></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><h6>HTML h6</h6></td>
+</tr>
+</tbody>
+</table>
+<h2 id="lists">Lists</h2>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><ul><li>HTML List Item I</li><li>HTML List Item II</li></ul></td>
+</tr>
+</tbody>
+</table>
+<h2 id="code">Code</h2>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Markdown Inline</code></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>HTML Inline</code></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><pre><code>HTML Block</code></pre></td>
+</tr>
+</tbody>
+</table>
+<h2 id="links--images">Links &amp; Images</h2>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://example.com" target="_blank">Markdown Link</a></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://example.com" target="_blank">https://example.com</a></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+		
+<a href="#image-299626b819d8c2318680e1bc90aa1759" class="lightbox-link">
+<img src="https://octodex.github.com/images/spocktocat.png?classes=shadow&amp;width=24px" alt="Spock" class="shadow" style="height: auto; width: 24px;" loading="lazy">
+</a>
+<a href="javascript:history.back();" class="lightbox" id="image-299626b819d8c2318680e1bc90aa1759">
+<img src="https://octodex.github.com/images/spocktocat.png?classes=shadow&amp;width=24px" alt="Spock" class="lightbox-image" loading="lazy">
+</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="other">Other</h2>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><blockquote>HTML Blockquote</blockquote></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><blockquote><p>HTML Blockquote with nested Paragraph</p></blockquote></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><hr></td>
+</tr>
+</tbody>
+</table>
+<h2 id="shortcodes">Shortcodes</h2>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="badge cstyle default"><span class="badge-content">Important</span></span></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<span class="btn cstyle transparent">
+  <a href="https://gohugo.io/" target="_blank">
+    Get Hugo
+  </a>
+</span></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<div class="expand">
+    <input type="checkbox" id="expand-fc7e576fa7c7d2bee2fee8c359d0a3aa" aria-controls="expandcontent-fc7e576fa7c7d2bee2fee8c359d0a3aa" >
+    <label class="expand-label" for="expand-fc7e576fa7c7d2bee2fee8c359d0a3aa" >
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-chevron-right"></i>
+        Expand me&hellip;
+    </label>
+    <div id="expandcontent-fc7e576fa7c7d2bee2fee8c359d0a3aa" class="expand-content">
+<p>
+Thank you!</div>
+</div></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><i class="fa-fw fas fa-heart"></i></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>You can add standard markdown syntax:</p>
+<ul>
+<li>multiple paragraphs</li>
+<li>bullet point lists</li>
+<li><em>emphasized</em>, <strong>bold</strong> and even <strong><em>bold emphasized</em></strong> text</li>
+<li><a href="https://example.com" target="_blank">links</a></li>
+<li>etc.<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-plaintext" data-lang="plaintext"><span class="line"><span class="cl">...and even source code
+</span></span></code></pre></div><blockquote>
+<p>the possibilities are endless (almost - including other shortcodes may or may not work) (almost - including other shortcodes may or may not work)
+|</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<span class="math align-center">
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+</span></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<span class="math align-center">$\sqrt{3}$</span></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<div class="mermaid align-center zoom">
+graph LR;
+    If --&gt; Then
+    Then --&gt; Else
+</div></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/McShelby/hugo-theme-relearn/edit/main/exampleSite/content/" target="_blank">https://github.com/McShelby/hugo-theme-relearn/edit/main/exampleSite/content/</a></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>i</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<div class="tab-panel" data-tab-group="daacff67ed33432ef8f8d1c84838c0ab">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      data-tab-item="python"
+      class="tab-nav-button tab-panel-style cstyle initial active"
+      onclick="switchTab('daacff67ed33432ef8f8d1c84838c0ab','python')"
+    >
+      <div>
+        <div class="tab-nav-hidden">python</div>
+        <div class="tab-nav-text">python</div>
+      </div>
+    </button>
+    <button
+      data-tab-item="bash"
+      class="tab-nav-button tab-panel-style cstyle initial"
+      onclick="switchTab('daacff67ed33432ef8f8d1c84838c0ab','bash')"
+    >
+      <div>
+        <div class="tab-nav-hidden">bash</div>
+        <div class="tab-nav-text">bash</div>
+      </div>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      data-tab-item="python"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Hello World!&#34;</span><span class="p">)</span>
+</span></span></code></pre></div></div>
+    </div>
+    <div
+      data-tab-item="bash"
+      class="tab-content tab-panel-style cstyle initial">
+      <div class="tab-content-text">
+
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">echo</span> <span class="s2">&#34;Hello World!&#34;</span>
+</span></span></code></pre></div></div>
+    </div>
+  </div>
+</div></td>
+</tr>
+</tbody>
+</table>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Et Cetera (English: /ɛtˈsɛtərə/), abbreviated to etc., etc, et cet., is a Latin expression that is used in English to mean &ldquo;and other similar things&rdquo;, or &ldquo;and so forth&rdquo;&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="vscode-front-matter">VSCode Front Matter</h1>
+
+<h2 id="empty-properties">Empty Properties</h2>
+
+<div class="box attachments cstyle transparent">
+  <div class="box-label"><i class="fa-fw fas fa-paperclip"></i> Attachments</div>
+  <ul class="box-content attachments-files">
+  </ul>
+</div>
+<span class="badge cstyle default"><span class="badge-content"></span></span>
+
+<span class="btn cstyle transparent">
+  <button type="button">
+    
+  </button>
+</span>
+
+<ul class="children children-li children-sort-">
+	
+</ul>
+
+<div class="expand">
+    <input type="checkbox" id="expand-db3db6ac60ac0aaf9606fae1533f47f1" aria-controls="expandcontent-db3db6ac60ac0aaf9606fae1533f47f1" >
+    <label class="expand-label" for="expand-db3db6ac60ac0aaf9606fae1533f47f1" >
+        <i class="fas fa-chevron-down"></i>
+        <i class="fas fa-chevron-right"></i>
+        Expand me&hellip;
+    </label>
+    <div id="expandcontent-db3db6ac60ac0aaf9606fae1533f47f1" class="expand-content">
+<p>
+</div>
+</div>
+<p>aa</p>
+
+
+<span class="math align-center"></span>
+<div class="mermaid align-center zoom"></div>
+<div class="box notices cstyle default">
+  <div class="box-label"></div>
+  <div class="box-content">
+<p>
+</div>
+</div>
+
+
+<div class="sc-openapi-wrapper is-loading helper-loading-container">
+  <div
+    class="sc-openapi-container"
+    id="openapi-dafc58611270d4457115dfa482f3a377"
+    openapi-url=""
+  ></div>
+</div>
+
+<div class="tab-panel" data-tab-group="f28d0af5239bcebb3b95a201877d49cc">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      data-tab-item=""
+      class="tab-nav-button tab-panel-style cstyle initial active"
+      onclick="switchTab('f28d0af5239bcebb3b95a201877d49cc','')"
+    >
+      <div>
+        <div class="tab-nav-hidden">&#8203;</div>
+        <div class="tab-nav-text">&#8203;</div>
+      </div>
+    </button>
+    <button
+      data-tab-item=""
+      class="tab-nav-button tab-panel-style cstyle initial"
+      onclick="switchTab('f28d0af5239bcebb3b95a201877d49cc','')"
+    >
+      <div>
+        <div class="tab-nav-hidden">&#8203;</div>
+        <div class="tab-nav-text">&#8203;</div>
+      </div>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      data-tab-item=""
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+<p>
+</div>
+    </div>
+    <div
+      data-tab-item=""
+      class="tab-content tab-panel-style cstyle initial">
+      <div class="tab-content-text">
+<p>
+</div>
+    </div>
+  </div>
+</div>
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          <article class="default">
+            <header class="headline">
+            </header>
+<h1 id="width">Width</h1>
+
+
+<div class="box notices cstyle primary">
+  <div class="box-label"></div>
+  <div class="box-content">
+
+<p>Make a visible block</p>
+</div>
+</div>
+
+<div class="box notices cstyle primary">
+  <div class="box-label"></div>
+  <div class="box-content">
+
+<p>And another one</p>
+</div>
+</div>
+
+            <footer class="footline">
+
+            </footer>
+          </article>
+
+          </section>
+        </div>
+      </main>
+    </div>
+    <script src="../js/clipboard.min.js?1687098581" defer></script>
+    <script src="../js/perfect-scrollbar.min.js?1687098581" defer></script>
+    <script>
+      function useMathJax( config ){
+        if( !Object.assign ){
+          
+          return;
+        }
+        window.MathJax = Object.assign( window.MathJax || {}, {
+          loader: {
+            load: ['[tex]/mhchem']
+          },
+          startup: {
+            elements: [
+              '.math'
+            ]
+          },
+          tex: {
+            inlineMath: [
+              ['$', '$'], 
+              ['\\(', '\\)']
+            ]
+          },
+          options: {
+            enableMenu: false 
+          }
+        }, config );
+      }
+      useMathJax( JSON.parse("{}") );
+    </script>
+    <script id="MathJax-script" async src="../js/mathjax/tex-mml-chtml.js?1687098581"></script>
+    <script src="../js/d3/d3-color.min.js?1687098581" defer></script>
+    <script src="../js/d3/d3-dispatch.min.js?1687098581" defer></script>
+    <script src="../js/d3/d3-drag.min.js?1687098581" defer></script>
+    <script src="../js/d3/d3-ease.min.js?1687098581" defer></script>
+    <script src="../js/d3/d3-interpolate.min.js?1687098581" defer></script>
+    <script src="../js/d3/d3-selection.min.js?1687098581" defer></script>
+    <script src="../js/d3/d3-timer.min.js?1687098581" defer></script>
+    <script src="../js/d3/d3-transition.min.js?1687098581" defer></script>
+    <script src="../js/d3/d3-zoom.min.js?1687098581" defer></script>
+    <script src="../js/mermaid.min.js?1687098581" defer></script>
+    <script>
+      window.themeUseMermaid = JSON.parse("{ \"securityLevel\": \"loose\" }");
+    </script>
+    <script>window.noZensmooth = true;</script>
+    <script src="../js/swagger-ui/swagger-ui-bundle.js?1687098581" defer></script>
+    <script src="../js/swagger-ui/swagger-ui-standalone-preset.js?1687098581" defer></script>
+    <script>
+      window.themeUseOpenapi = { css: "/js/swagger-ui/swagger-ui.css?1687098581", assetsBuster:  1687098581  };
+    </script>
+    <script src="../js/theme.js?1687098581" defer></script>
+  </body>
+</html>

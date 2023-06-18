@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Hugo Relearn Theme</title>
+    <link>https://example.com/tags/index.html</link>
+    <description>Recent content in Tags on Hugo Relearn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://example.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Children</title>
+      <link>https://example.com/tags/children/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/children/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>config</title>
+      <link>https://example.com/tags/config/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/config/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Content</title>
+      <link>https://example.com/tags/content/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/content/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>documentation</title>
+      <link>https://example.com/tags/documentation/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/documentation/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>hidden</title>
+      <link>https://example.com/tags/hidden/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/hidden/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>non-hidden</title>
+      <link>https://example.com/tags/non-hidden/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/non-hidden/index.html</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>tutorial</title>
+      <link>https://example.com/tags/tutorial/index.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/tags/tutorial/index.html</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
